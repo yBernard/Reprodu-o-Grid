@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="top-header">
+        <div id="top-left">
+            <i class="fa fa-envelope"></i>
+            <p class="borda">hello@colorlib.com</p>
+            <p>Free Shipping for all Order of $99</p>
+        </div>
+        <div id="top-right">
+            <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
+            <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #000000;"></i>
+            <i class="fa-brands fa-pinterest-p" style="color: #000000;"></i>
+            <p class="borda2"><img src="language.png" alt=""> English <i class="fa-solid fa-angle-down fa-2xs"></i></p>
+            <p><i class="fa-solid fa-user" style="color: #000000;"></i> Login</p>
+        </div>
+    </div>
+    <main>
+         <div id="main-logo">
+            <img src="logo.png" alt="">
+         </div>
+         <div id="main-nav">
+            <div id="nav-links">
+                <a href="index.html" >HOME</a>
+                <a href="shop.html">SHOP</a>
+                <div id="nav-pages">
+                    <a href="">PAGES</a>
+                    <ul id="nav-dropdown">
+                        <li>Shop Details</li>
+                        <li>Shopping Cart</li>
+                        <li>Checkout</li>
+                        <li>Blog Details</li>
+                    </ul>
+                </div>
+                <a href="blog.html" class="verde">BLOG</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <div id="nav-basket">
+                <ul>
+                    <li><i class="fa fa-heart icon-header"></i></li>
+                    <li><i class="fa fa-shopping-bag"></i></li>
+                    <p>item:<strong>$150.00</strong></p>
+                </ul>
+            </div>
+         </div>
+         <div id="main-menu">
+            <input type="checkbox" name="" id="ckb-rolldown"  onchange="toggleMenu()">
+            <div id="rolldown-content">
+                <i class="fa-solid fa-bars"></i>
+                <h2></i> All departaments </h2>
+                <i class="fa-solid fa-angle-down fa-xs"></i>
+            </div>
+            <div id="menurolldownwrap">
+                <ul id="main-ul">
+                    <li>Fresh Meat</li>
+                    <li>Vegetables</li>
+                    <li>Fruit & Nut Gifts</li>
+                    <li>Fresh Berries</li>
+                    <li>Ocean Foods</li>
+                    <li>Butter & Eggs</li>
+                    <li>Fastfood</li>
+                    <li>Fresh Onion</li>
+                    <li>Papayaya & Crisps</li>
+                    <li>Oatmeal</li>
+                    <li>Fresh Bananas</li>
+                </ul>
+            </div>
+         </div>
+         <div id="main-busca">
+            <div id="search-bar">
+                <div id="search-categories">
+                    <p>All Categories</p><i class="fa-solid fa-angle-down fa-2xs"></i>
+                </div>
+                <div id="search-input">
+                    <input type="text" name="" id="search-input-camp" placeholder="What do you need?">
+                    <a href="" id="search-button-a">SEARCH</a>
+                </div>
+                <div id="telefone">
+                    <div class="icon">
+                        <i class="fa-solid fa-phone" style="color: #7fad39;"></i>
+                    </div>
+                    <div class="telefone">
+                        <strong>+65 11.188.888</strong>
+                        <p>support 24/7 time</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </main>
+    <div id="page-introduction">
+        <h1>Blog</h1>
+        <a href="index.html">Home</a>- Blog
+    </div>
+    <section id="blog-content">
+        <div id="blog-sidebar">
+            <input type="text" name="" id="" placeholder="Search...">
+            <span class="lupa"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <h2>Categories</h2>
+            <ul id="categories-ul">
+                <li>All</li>
+                <li>Beauty (20)</li>
+                <li>Food (5)</li>
+                <li>Life Style(9)</li>
+                <li>Travel (10)</li>
+            </ul>
+            <h2>Recent News</h2>
+            <div id="rn-items">
+                <div class="rn-item">
+                    <img src="sr-1.jpg" alt="">
+                    <div class="rn-text">
+                        <h3>09 Kinds Of Vegetables <br> Protect The Liver</h3>
+                        <p>MAR 05, 2019</p>
+                    </div>
+                </div>
+                <div class="rn-item">
+                    <img src="sr-2.jpg" alt="">
+                    <div class="rn-text">
+                        <h3>Tips You To Balance <br>  Nutrition Meal Day</h3>
+                        <p>MAR 05, 2019</p>
+                    </div>
+                </div>
+                <div class="rn-item">
+                    <img src="sr-3.jpg" alt="">
+                    <div class="rn-text">
+                        <h3>4 Principles Help You Lose  <br>Weight With Vegetables</h3>
+                        <p>MAR 05, 2019</p>
+                    </div>
+                </div>
+            </div>
+            <h2>Search By</h2>
+                <ul class="sb-tags">
+                    <li>Apple</li>
+                    <li>Beauty</li>
+                    <li>Vegetables</li>
+                    <li>Fruit</li>
+                    <li>Healthy Food</li>
+                    <li>Lifestyle</li>
+                </ul>
+        </div>
+            <div id="article-01" class="ftb-article">
+                <img src="blog-2.jpg" alt="">
+                <span><i class="fa-regular fa-calendar"></i><p> May 4,2019</p> <i class="fa-regular fa-comment"></i>5</span>
+                <h4>Cooking tips make cooking simple</h4>
+                <h6>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</h6>
+                <a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div id="article-02" class="ftb-article">
+                <img src="blog-3.jpg" alt="">
+                <span><i class="fa-regular fa-calendar"></i><p> May 4,2019</p> <i class="fa-regular fa-comment"></i>5</span>
+                <h4>Cooking tips make cooking simple</h4>
+                <h6>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</h6>
+                <a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div id="article-03" class="ftb-article">
+                <img src="blog-1.jpg" alt="">
+                <span><i class="fa-regular fa-calendar"></i><p> May 4,2019</p> <i class="fa-regular fa-comment"></i>5</span>
+                <h4>Cooking tips make cooking simple</h4>
+                <h6>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</h6>
+                <a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div id="article-04" class="ftb-article">
+                <img src="blog-4.jpg" alt="">
+                <span><i class="fa-regular fa-calendar"></i><p> May 4,2019</p> <i class="fa-regular fa-comment"></i>5</span>
+                <h4>Cooking tips make cooking simple</h4>
+                <h6>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</h6>
+                <a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div id="article-05" class="ftb-article">
+                <img src="blog-4.jpg" alt="">
+                <span><i class="fa-regular fa-calendar"></i><p> May 4,2019</p> <i class="fa-regular fa-comment"></i>5</span>
+                <h4>Cooking tips make cooking simple</h4>
+                <h6>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</h6>
+                <a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div id="article-06" class="ftb-article">
+                <img src="blog-6.jpg" alt="">
+                <span><i class="fa-regular fa-calendar"></i><p> May 4,2019</p> <i class="fa-regular fa-comment"></i>5</span>
+                <h4>Cooking tips make cooking simple</h4>
+                <h6>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</h6>
+                <a href="">READ MORE <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+    </section>
+    <footer>
+        <div id="footer-address">
+            <div id="footer-address-logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div id="footer-address-text">
+                <p>Address: 60-49 Road 11378 New York </p>
+                <p>Phone: +65 11.188.888</p>
+                <p>Email: hello@colorlib.com</p>
+            </div>
+        </div>
+        <div id="footer-links">
+            <h2>Useful Links</h2>
+            <div id="footer-links-ul">
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">About Our Shop</a></li>
+                    <li><a href="">Secure Shopping</a></li>
+                    <li><a href="">Delivery infomation</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Our Sitemap</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Who We Are</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Innovation</a></li>
+                    <li><a href="">Testimonials</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer-newsletter">
+            <h4>Join Our Newsletter Now</h4>
+            <p>Get E-mail updates about our latest shop and special offers.</p>
+            <div id="footer-newsletter-subscribe">
+                <input type="text" name="" id="" placeholder="Enter your mail">
+                <a href="">SUBSCRIBE</a>
+            </div>
+            <ul>
+                <li><i class="fa-brands fa-facebook-f fa-hover"></i></li>
+                <li><i class="fa-brands fa-twitter fa-hover"></i></li>
+                <li><i class="fa-brands fa-linkedin-in fa-hover"></i></li>
+                <li><i class="fa-brands fa-pinterest fa-hover"></i></li>
+            </ul>
+        </div>
+        <div id="footer-ARR">
+            <P>Copyright &#169 2024 All rights reserved | This template is made with <i class="fa-solid fa-heart" style="color: #6f6f6f;"></i> by <a href="">Colorlib</a></P>
+            <img src="payment-item.png" alt="">
+        </div>
+    </footer>
+         <script>
+            function toggleMenu(){
+                let menurolldownwrap = document.getElementById("menurolldownwrap");
+                menurolldownwrap.classList.toggle("rolldown-wrap");
+            }
+        </script>
+
+</body>
+</html>
